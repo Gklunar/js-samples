@@ -12,10 +12,10 @@ const config: PlaywrightTestConfig = {
   workers: process.env.CI ? 2 : undefined,
   use: {
     viewport: {
-      width: 600,
+      width: 600
       height: 1200,
     },
-    baseURL: "http://localhost:8080/",
+
     // headless: process.env.CI ? true : false,
     // launchOptions: {
     //   slowMo: process.env.CI ? undefined : 100,
